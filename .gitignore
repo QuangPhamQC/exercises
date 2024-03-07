@@ -1,0 +1,6 @@
+/target/
+libraries/StartNode/selenium-server-standalone-3.141.59.jar
+libraries/StartNode/webdrivermanager-5.3.2-fat.jar
+/test-output/
+/.idea/
+/.settings/
