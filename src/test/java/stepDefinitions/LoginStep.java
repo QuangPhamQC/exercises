@@ -48,5 +48,6 @@ public class LoginStep extends BasePage {
 	@Then("Verify user can login successful on page")
 	public void verifyUserCanLoginSuccessfulOnPage() {
 		Assert.assertEquals(getElementText(driver, LoginUI.LOG_OUT_BUTTON), "Log out");
+		sleepInSecond(2);
 	}
 }
