@@ -34,7 +34,7 @@ public class SearchStep extends BasePage{
 
     @When("Input {string} value in Search textbox in Search page")
     public void inputValueInTextboxInSearchPage(String string) {
-        String defaultText = getElementTextByJS_2(driver, SearchUI.SEARCH_TEXTBOX);
+        String defaultText = getElementTextByJS_4(driver, SearchUI.SEARCH_TEXTBOX);
         System.out.println(defaultText);
         if (defaultText == null){
             inputToElement(driver, SearchUI.SEARCH_TEXTBOX, string);
